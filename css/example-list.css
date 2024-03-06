@@ -24,30 +24,31 @@
 	top: 10px;
 	justify-content: space-evenly;
 	width: 80%;
-	background-color: teal;
+	background-color: silver;
 	margin: auto;
 	padding: 0.5rem;
-	color: #FFE3AA;
+	color: #C0C0C0;
 	text-transform: uppercase;
 	border-radius: 1rem;
 
 }
 
 .anchor-nav a {
-	color: #ffe3aa;
+	color: #white;
 }
 
 
 body {
-	background-color: rgba(229, 172, 103, 0.5);
+	background-color: silver;
 	overflow: scroll; /* Show scrollbars */
 }
 
-
+h1 
+color: 
 
 nav {
 
-	background-color: whitesmoke;
+	background-color: white;
 	max-width: 800px;
 	margin: auto;
 	font-size: 1.5em;
@@ -64,12 +65,12 @@ nav ul {
 }
 
 nav ul li {
-	background-color: red;
+	background-color: white;
 	flex-flow: row wrap;
 	align-items: stretch;
 	list-style-type: none;
 	padding: 1rem;
-	max-width: 100%;
+	max-width: 200%;
 	border-radius: 0.1rem;
 
 }
@@ -77,23 +78,21 @@ nav ul li {
 nav ul li a {
 	font-family: 'Playfair Display', serif;
 	text-decoration: none;
-	color: forestgreen;
+	color: black;
 }
 
 nav ul li a:visited {
-/*	text-decoration: none;*/
-	color: forestgreen;
+
+	color: black;
 }
 
 nav ul li a:hover {
 	text-decoration: ;
-	color: blue;
+	color: silver;
 }
 
 
-/*a:visited {
-  color: cyan;
-  text-decoration-color: hotpink;
+
   
 }*/
 
@@ -175,13 +174,12 @@ p {
 	flex-direction: row;
 }
 
-button_next {  }
-button_previous {  }
+
 
 .stepper {  }
 
 button {
-	background-color: black;
+	background-color: orange;
 	margin: 1rem;
 	padding: 1rem;
 	min-width: 10rem;
@@ -190,7 +188,7 @@ button {
 }
 
 .button-start {
-/*	background-color: forestgreen;*/
+
 }
 
 .gallery-image {
@@ -227,13 +225,7 @@ example-image {
 	flex-wrap: wrap;
 }
 
-/*
 
-Name h2
-Year date-label
-Description desc-label
-Notable disctintion notable-label
-wiki link wiki-link*/
 
 .list-item {
 	display: flex;
@@ -291,14 +283,14 @@ wiki link wiki-link*/
     	right: 0;
 /*    	width: 100%;*/
     	z-index: 3;
-    	color: #fff;
+    	color: #orange;
 	    font-family: 'IBM Plex Mono', monospace;
     	font-size: 0.8rem;
     	padding: 1rem;
 }
 
 .img-credit a {
-	color: whitesmoke;
+	color: orange;
 	text-shadow: black 1px 0 10px;
 	background: black;
 	border-radius: 2px;
@@ -325,7 +317,7 @@ wiki link wiki-link*/
 }
 
 .fancy-background {
-	background-color: #797979;
+	background-color: #gold;
 	padding: 1rem;
 }
 
@@ -339,26 +331,13 @@ wiki link wiki-link*/
 
 
 
-.crabgrounds6 {
-	background-image: 
-	linear-gradient(rgba(115, 191, 255, 0.5), rgba(229, 172, 103, 1.0)),
-/*	linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),*/
-  	url("../img/crab-background.png");
-  	background-repeat: no-repeat;
-
-}
-
 .greens {
-/*	text-shadow: 5px 5px #558ABB;*/
-/*	background-color: goldenrod;*/
-background-color: rgba(218,165,32,0.5);
-}
-
+background-color: gray;
 
 .blues2 {
-	color: #797979;
-	background-color: greenyellow;
-/*	this is a test item*/
+	color: #black;
+	background-color: black;
+
 }
 
 
@@ -367,7 +346,7 @@ background-color: rgba(218,165,32,0.5);
 	font-size: 1.5rem;
 /*	text-decoration: underline;*/
 	text-decoration: underline  10px #FF3028;
-	color: crimson;
+	color: black;
 
 }
 
@@ -390,7 +369,7 @@ background-color: rgba(218,165,32,0.5);
 	
 	
 	width: 300px;
-	background-color: blueviolet;
+	background-color: black;
 	padding: 1rem;
 }
 
@@ -407,9 +386,9 @@ background-color: rgba(218,165,32,0.5);
 	padding: 1rem;
 }
 
-.teal {
+.black {
 	width: 300px;
-	background-color: teal;
+	background-color: black;
 	padding: 1rem;
 }
 
@@ -417,7 +396,7 @@ background-color: rgba(218,165,32,0.5);
 
 
 .image-type-1 {
-	background-color: greenyellow;
+	background-color: purple;
 	padding: 2rem;
 	margin: 1rem;
 	border: red 5px solid;
@@ -508,19 +487,7 @@ background-color: rgba(218,165,32,0.5);
 			font-family: 'IBM+Plex', monospace;
 		}
 
-/*.blues {
-	rgba(115, 191, 255, 0.5) 73bfff
-}
 
-.redsand {
-	rgba(229, 172, 103, 0.5) e5ac67
-
-}
-
-.teallight {
-	rgba(134, 206, 170, 0.5) 86ceaa
-
-}*/
 
 
 /*@media (min-width: 300px) {
@@ -613,7 +580,7 @@ p {
 	}
 
 nav {
-	background-color: rgba(255, 255, 255, 0.0);
+	background-color: black;
 	max-width: 100%px;
 	font-size: 1rem;
 }
@@ -669,7 +636,7 @@ nav ul li a {
 
 .blue {
 	width: 300px;
-	background-color: blueviolet;
+	background-color: darkred;
 	padding: 1rem;
 	border-radius:4;
 }
@@ -700,7 +667,7 @@ nav ul li a {
 
 @media screen and (min-width:501px){
 	body {
-		background-color: #67a0e5;
+		background-color: #C0C0C0;
 }
 
 
@@ -718,7 +685,7 @@ nav ul li a {
 
 }
 .example-image img {
-	background-color: crimson;
+	background-color: black;
 	padding: 3rem;
 }
 
@@ -728,9 +695,6 @@ nav ul li a {
 
 	body {
 
-/*	background-color: #dbf0f9;*/
-/*	background-image: file:///D:/4502-class-example/4502-class-example/img/2001.png;*/
-/*background-image: url("../img/2001.png");*/
 }
 
 	}
