@@ -1,7 +1,4 @@
-.list-intro {
-	display: flex;
-	flex-direction: column; 
-}
+
 .skip-link {
   position: absolute;
   width: 1px;
